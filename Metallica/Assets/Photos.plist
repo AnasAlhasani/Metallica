@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>Title</key>
+            <string>Kill &apos;Em All</string>
+            <key>Date</key>
+            <string>1983</string>
+            <key>Image</key>
+            <string>01</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Ride The Lightning</string>
+            <key>Date</key>
+            <string>1984</string>
+            <key>Image</key>
+            <string>02</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Master Of Puppets</string>
+            <key>Date</key>
+            <string>1984</string>
+            <key>Image</key>
+            <string>03</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>And Justice For All</string>
+            <key>Date</key>
+            <string>1988</string>
+            <key>Image</key>
+            <string>04</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Death Magnetic</string>
+            <key>Date</key>
+            <string>2008</string>
+            <key>Image</key>
+            <string>05</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Through The Never</string>
+            <key>Date</key>
+            <string>2013</string>
+            <key>Image</key>
+            <string>06</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>Hardwired</string>
+            <key>Date</key>
+            <string>2016</string>
+            <key>Image</key>
+            <string>07</string>
+        </dict>
+    </array>
+</plist>
+

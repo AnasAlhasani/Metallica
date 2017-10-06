@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tf2-1I-tSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Album View Controller-->
+        <scene sceneID="fnA-yz-utG">
+            <objects>
+                <viewController id="Tf2-1I-tSI" customClass="AlbumViewController" customModule="Metallica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xiy-zv-qAr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metallica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xij-aK-Apg">
+                                <rect key="frame" x="20" y="40" width="335" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EE0-bm-w9s">
+                                <rect key="frame" x="0.0" y="121" width="375" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="z9S-YP-ES6">
+                                <rect key="frame" x="160" y="595" width="55" height="40"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                        <constraints>
+                            <constraint firstItem="VhS-Tf-JF1" firstAttribute="bottom" secondItem="z9S-YP-ES6" secondAttribute="bottom" constant="32" id="3SS-TR-J7M"/>
+                            <constraint firstItem="xij-aK-Apg" firstAttribute="top" secondItem="VhS-Tf-JF1" secondAttribute="top" constant="20" id="IM9-0c-CAb"/>
+                            <constraint firstItem="z9S-YP-ES6" firstAttribute="centerX" secondItem="Xiy-zv-qAr" secondAttribute="centerX" id="RgJ-Pq-W9S"/>
+                            <constraint firstItem="VhS-Tf-JF1" firstAttribute="trailing" secondItem="xij-aK-Apg" secondAttribute="trailing" constant="20" id="UC4-fg-Tmm"/>
+                            <constraint firstItem="xij-aK-Apg" firstAttribute="leading" secondItem="VhS-Tf-JF1" secondAttribute="leading" constant="20" id="Uy1-4k-Tet"/>
+                            <constraint firstItem="z9S-YP-ES6" firstAttribute="height" secondItem="Xiy-zv-qAr" secondAttribute="height" multiplier="40/667" id="pJt-H2-udX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VhS-Tf-JF1"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="z9S-YP-ES6" id="6M2-LN-abv"/>
+                        <outlet property="scrollView" destination="EE0-bm-w9s" id="iYb-Eg-1ps"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YSs-5x-8VA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
